@@ -32,4 +32,8 @@ num_niveles = 12
 contenedores = simular_galton(num_canicas, num_niveles)
 graficar_histograma(contenedores)
 
+# Agregar un encabezado adicional al gráfico
+plt.title("Histograma de canicas en cada contenedor - Máquina de Galton") 
+
+
 
